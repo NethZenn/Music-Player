@@ -1,0 +1,120 @@
+:root {
+  --bg: rgb(82, 209, 255);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  background-color: black;
+}
+.musicplayer {
+  border: 2px solid white;
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 25px;
+  gap: 10px;
+}
+.musicplayer #albumname {
+  font-weight: 600;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.25s;
+  color: white;
+}
+.musicplayer #albumname:hover {
+  color: rgb(35, 197, 250);
+  text-shadow: 0 0 10px rgb(58, 206, 255);
+}
+.musicplayer img {
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 10px;
+  transition: ease-in-out 0.15s;
+}
+.musicplayer img:hover {
+  scale: 1.05;
+  box-shadow: 0 0 25px #25a8ff;
+}
+.musicplayer #musicname {
+  color: white;
+  font-weight: 500;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  transition: ease-in-out 0.15s;
+}
+.musicplayer #musicname:hover {
+  scale: 1.025;
+  color: rgb(35, 197, 250);
+  text-shadow: 0 0 10px rgb(58, 206, 255);
+}
+.musicplayer .musicbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 75px;
+  padding: 10px;
+}
+.musicplayer .musicbutton .button {
+  background: rgb(118, 118, 118);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+.musicplayer .musicbutton .button:hover {
+  scale: 1.15;
+  box-shadow: 0 0 20px rgb(172, 172, 172);
+}
+.musicplayer .musicbutton .button:active {
+  background-color: rgb(93, 93, 93);
+    box-shadow: 0 0 20px rgb(124, 124, 124);
+}
