@@ -55,6 +55,7 @@ body {
   margin-bottom: 10px;
   transition: ease-in-out 0.25s;
   color: white;
+  cursor:default;
 }
 .musicplayer #albumname:hover {
   color: rgb(35, 197, 250);
@@ -85,6 +86,7 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  cursor:default;
   transition: ease-in-out 0.15s;
 }
 .musicplayer #musicname:hover {
